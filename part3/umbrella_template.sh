@@ -13,7 +13,7 @@ TOP_FILE="$PARENT_DIR/1vet.top"
 INDEX_FILE="$PARENT_DIR/index.ndx"
 
 # Short equilibration
-gmx grompp -f "$NPT_MDP" -c "$CONF_GRO" -r "$CONF_GRO" -p "$TOP_FILE" -n "$INDEX_FILE" -o nptXXX.tpr
+gmx grompp -f "$NPT_MDP" -c "$CONF_GRO" -r "$CONF_GRO" -p "$TOP_FILE" -n "$INDEX_FILE" -o nptXXX.tpr -maxwarn 1
 if [ $? -ne 0 ]; then
     echo "FAIL: grompp equilibration failed" > FAIL
     exit 1
@@ -26,7 +26,7 @@ if [ $? -ne 0 ]; then
 fi
 
 # Umbrella run
-gmx grompp -f "$MD_MDP" -c nptXXX.gro -r nptXXX.gro -t nptXXX.cpt -p "$TOP_FILE" -n "$INDEX_FILE" -o umbrellaXXX.tpr
+gmx grompp -f "$MD_MDP" -c nptXXX.gro -r nptXXX.gro -t nptXXX.cpt -p "$TOP_FILE" -n "$INDEX_FILE" -o umbrellaXXX.tpr -maxwarn 1
 if [ $? -ne 0 ]; then
     echo "FAIL: grompp umbrella failed" > FAIL
     exit 1

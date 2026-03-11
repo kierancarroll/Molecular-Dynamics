@@ -1,0 +1,303 @@
+Starting execution in directory: /home/xze439/HW2/assignment2 kopie/part3
+Log file: umbrella_run.log
+The following shell scripts will be executed:
+ - COM_2.346/frame-0_run-umbrella.sh
+ - COM_2.446/frame-19_run-umbrella.sh
+ - COM_2.550/frame-40_run-umbrella.sh
+ - COM_2.654/frame-51_run-umbrella.sh
+ - COM_2.757/frame-62_run-umbrella.sh
+ - COM_2.855/frame-71_run-umbrella.sh
+ - COM_2.970/frame-79_run-umbrella.sh
+ - COM_3.085/frame-83_run-umbrella.sh
+ - COM_3.188/frame-88_run-umbrella.sh
+ - COM_3.288/frame-90_run-umbrella.sh
+ - COM_3.358/frame-93_run-umbrella.sh
+ - COM_3.469/frame-97_run-umbrella.sh
+ - COM_3.574/frame-102_run-umbrella.sh
+ - COM_3.687/frame-107_run-umbrella.sh
+ - COM_3.789/frame-110_run-umbrella.sh
+ - COM_3.901/frame-116_run-umbrella.sh
+ - COM_3.993/frame-120_run-umbrella.sh
+ - COM_4.095/frame-125_run-umbrella.sh
+ - COM_4.198/frame-129_run-umbrella.sh
+ - COM_4.291/frame-134_run-umbrella.sh
+ - COM_4.386/frame-137_run-umbrella.sh
+ - COM_4.492/frame-140_run-umbrella.sh
+ - COM_4.602/frame-145_run-umbrella.sh
+ - COM_4.698/frame-151_run-umbrella.sh
+ - COM_4.802/frame-157_run-umbrella.sh
+ - COM_4.902/frame-162_run-umbrella.sh
+ - COM_5.000/frame-166_run-umbrella.sh
+ - COM_5.094/frame-169_run-umbrella.sh
+ - COM_5.208/frame-173_run-umbrella.sh
+ - COM_5.309/frame-178_run-umbrella.sh
+ - COM_5.411/frame-183_run-umbrella.sh
+ - COM_5.527/frame-188_run-umbrella.sh
+ - COM_5.622/frame-195_run-umbrella.sh
+ - COM_5.720/frame-201_run-umbrella.sh
+ - COM_5.813/frame-206_run-umbrella.sh
+ - COM_5.913/frame-211_run-umbrella.sh
+ - COM_6.019/frame-217_run-umbrella.sh
+ - COM_6.122/frame-220_run-umbrella.sh
+ - COM_6.234/frame-225_run-umbrella.sh
+ - COM_6.314/frame-230_run-umbrella.sh
+ - COM_6.398/frame-234_run-umbrella.sh
+ - COM_6.487/frame-237_run-umbrella.sh
+ - COM_6.585/frame-242_run-umbrella.sh
+ - COM_6.685/frame-246_run-umbrella.sh
+ - COM_6.786/frame-250_run-umbrella.sh
+Do you want to execute all these scripts? (y/n): Running COM_2.346/frame-0_run-umbrella.sh... (Logging to COM_2.346/frame-0.log)
+Execution of COM_2.346/frame-0_run-umbrella.sh completed successfully.
+Running COM_2.446/frame-19_run-umbrella.sh... (Logging to COM_2.446/frame-19.log)
+Execution of COM_2.446/frame-19_run-umbrella.sh completed successfully.
+Running COM_2.550/frame-40_run-umbrella.sh... (Logging to COM_2.550/frame-40.log)
+Execution of COM_2.550/frame-40_run-umbrella.sh completed successfully.
+Running COM_2.654/frame-51_run-umbrella.sh... (Logging to COM_2.654/frame-51.log)
+Execution of COM_2.654/frame-51_run-umbrella.sh completed successfully.
+Running COM_2.757/frame-62_run-umbrella.sh... (Logging to COM_2.757/frame-62.log)
+Execution of COM_2.757/frame-62_run-umbrella.sh completed successfully.
+Running COM_2.855/frame-71_run-umbrella.sh... (Logging to COM_2.855/frame-71.log)
+Execution of COM_2.855/frame-71_run-umbrella.sh completed successfully.
+Running COM_2.970/frame-79_run-umbrella.sh... (Logging to COM_2.970/frame-79.log)
+Execution of COM_2.970/frame-79_run-umbrella.sh completed successfully.
+Running COM_3.085/frame-83_run-umbrella.sh... (Logging to COM_3.085/frame-83.log)
+Execution of COM_3.085/frame-83_run-umbrella.sh completed successfully.
+Running COM_3.188/frame-88_run-umbrella.sh... (Logging to COM_3.188/frame-88.log)
+Execution of COM_3.188/frame-88_run-umbrella.sh completed successfully.
+Running COM_3.288/frame-90_run-umbrella.sh... (Logging to COM_3.288/frame-90.log)
+Execution of COM_3.288/frame-90_run-umbrella.sh completed successfully.
+Running COM_3.358/frame-93_run-umbrella.sh... (Logging to COM_3.358/frame-93.log)
+Execution of COM_3.358/frame-93_run-umbrella.sh completed successfully.
+Running COM_3.469/frame-97_run-umbrella.sh... (Logging to COM_3.469/frame-97.log)
+Execution of COM_3.469/frame-97_run-umbrella.sh completed successfully.
+Running COM_3.574/frame-102_run-umbrella.sh... (Logging to COM_3.574/frame-102.log)
+Execution of COM_3.574/frame-102_run-umbrella.sh completed successfully.
+Running COM_3.687/frame-107_run-umbrella.sh... (Logging to COM_3.687/frame-107.log)
+Execution of COM_3.687/frame-107_run-umbrella.sh completed successfully.
+Running COM_3.789/frame-110_run-umbrella.sh... (Logging to COM_3.789/frame-110.log)
+Execution of COM_3.789/frame-110_run-umbrella.sh completed successfully.
+Running COM_3.901/frame-116_run-umbrella.sh... (Logging to COM_3.901/frame-116.log)
+Execution of COM_3.901/frame-116_run-umbrella.sh completed successfully.
+Running COM_3.993/frame-120_run-umbrella.sh... (Logging to COM_3.993/frame-120.log)
+Execution of COM_3.993/frame-120_run-umbrella.sh completed successfully.
+Running COM_4.095/frame-125_run-umbrella.sh... (Logging to COM_4.095/frame-125.log)
+Execution of COM_4.095/frame-125_run-umbrella.sh completed successfully.
+Running COM_4.198/frame-129_run-umbrella.sh... (Logging to COM_4.198/frame-129.log)
+Execution of COM_4.198/frame-129_run-umbrella.sh completed successfully.
+Running COM_4.291/frame-134_run-umbrella.sh... (Logging to COM_4.291/frame-134.log)
+Execution of COM_4.291/frame-134_run-umbrella.sh failed. Check COM_4.291/frame-134.log for details.
+Running COM_4.386/frame-137_run-umbrella.sh... (Logging to COM_4.386/frame-137.log)
+run_all_umbrellas.sh: line 115: COM_4.386/frame-137.log: Disk quota exceeded
+Execution of COM_4.386/frame-137_run-umbrella.sh failed. Check COM_4.386/frame-137.log for details.
+Running COM_4.492/frame-140_run-umbrella.sh... (Logging to COM_4.492/frame-140.log)
+run_all_umbrellas.sh: line 115: COM_4.492/frame-140.log: Disk quota exceeded
+Execution of COM_4.492/frame-140_run-umbrella.sh failed. Check COM_4.492/frame-140.log for details.
+Running COM_4.602/frame-145_run-umbrella.sh... (Logging to COM_4.602/frame-145.log)
+run_all_umbrellas.sh: line 115: COM_4.602/frame-145.log: Disk quota exceeded
+Execution of COM_4.602/frame-145_run-umbrella.sh failed. Check COM_4.602/frame-145.log for details.
+Running COM_4.698/frame-151_run-umbrella.sh... (Logging to COM_4.698/frame-151.log)
+run_all_umbrellas.sh: line 115: COM_4.698/frame-151.log: Disk quota exceeded
+Execution of COM_4.698/frame-151_run-umbrella.sh failed. Check COM_4.698/frame-151.log for details.
+Running COM_4.802/frame-157_run-umbrella.sh... (Logging to COM_4.802/frame-157.log)
+run_all_umbrellas.sh: line 115: COM_4.802/frame-157.log: Disk quota exceeded
+Execution of COM_4.802/frame-157_run-umbrella.sh failed. Check COM_4.802/frame-157.log for details.
+Running COM_4.902/frame-162_run-umbrella.sh... (Logging to COM_4.902/frame-162.log)
+run_all_umbrellas.sh: line 115: COM_4.902/frame-162.log: Disk quota exceeded
+Execution of COM_4.902/frame-162_run-umbrella.sh failed. Check COM_4.902/frame-162.log for details.
+Running COM_5.000/frame-166_run-umbrella.sh... (Logging to COM_5.000/frame-166.log)
+run_all_umbrellas.sh: line 115: COM_5.000/frame-166.log: Disk quota exceeded
+Execution of COM_5.000/frame-166_run-umbrella.sh failed. Check COM_5.000/frame-166.log for details.
+Running COM_5.094/frame-169_run-umbrella.sh... (Logging to COM_5.094/frame-169.log)
+run_all_umbrellas.sh: line 115: COM_5.094/frame-169.log: Disk quota exceeded
+Execution of COM_5.094/frame-169_run-umbrella.sh failed. Check COM_5.094/frame-169.log for details.
+Running COM_5.208/frame-173_run-umbrella.sh... (Logging to COM_5.208/frame-173.log)
+run_all_umbrellas.sh: line 115: COM_5.208/frame-173.log: Disk quota exceeded
+Execution of COM_5.208/frame-173_run-umbrella.sh failed. Check COM_5.208/frame-173.log for details.
+Running COM_5.309/frame-178_run-umbrella.sh... (Logging to COM_5.309/frame-178.log)
+run_all_umbrellas.sh: line 115: COM_5.309/frame-178.log: Disk quota exceeded
+Execution of COM_5.309/frame-178_run-umbrella.sh failed. Check COM_5.309/frame-178.log for details.
+Running COM_5.411/frame-183_run-umbrella.sh... (Logging to COM_5.411/frame-183.log)
+run_all_umbrellas.sh: line 115: COM_5.411/frame-183.log: Disk quota exceeded
+Execution of COM_5.411/frame-183_run-umbrella.sh failed. Check COM_5.411/frame-183.log for details.
+Running COM_5.527/frame-188_run-umbrella.sh... (Logging to COM_5.527/frame-188.log)
+run_all_umbrellas.sh: line 115: COM_5.527/frame-188.log: Disk quota exceeded
+Execution of COM_5.527/frame-188_run-umbrella.sh failed. Check COM_5.527/frame-188.log for details.
+Running COM_5.622/frame-195_run-umbrella.sh... (Logging to COM_5.622/frame-195.log)
+run_all_umbrellas.sh: line 115: COM_5.622/frame-195.log: Disk quota exceeded
+Execution of COM_5.622/frame-195_run-umbrella.sh failed. Check COM_5.622/frame-195.log for details.
+Running COM_5.720/frame-201_run-umbrella.sh... (Logging to COM_5.720/frame-201.log)
+run_all_umbrellas.sh: line 115: COM_5.720/frame-201.log: Disk quota exceeded
+Execution of COM_5.720/frame-201_run-umbrella.sh failed. Check COM_5.720/frame-201.log for details.
+Running COM_5.813/frame-206_run-umbrella.sh... (Logging to COM_5.813/frame-206.log)
+run_all_umbrellas.sh: line 115: COM_5.813/frame-206.log: Disk quota exceeded
+Execution of COM_5.813/frame-206_run-umbrella.sh failed. Check COM_5.813/frame-206.log for details.
+Running COM_5.913/frame-211_run-umbrella.sh... (Logging to COM_5.913/frame-211.log)
+run_all_umbrellas.sh: line 115: COM_5.913/frame-211.log: Disk quota exceeded
+Execution of COM_5.913/frame-211_run-umbrella.sh failed. Check COM_5.913/frame-211.log for details.
+Running COM_6.019/frame-217_run-umbrella.sh... (Logging to COM_6.019/frame-217.log)
+run_all_umbrellas.sh: line 115: COM_6.019/frame-217.log: Disk quota exceeded
+Execution of COM_6.019/frame-217_run-umbrella.sh failed. Check COM_6.019/frame-217.log for details.
+Running COM_6.122/frame-220_run-umbrella.sh... (Logging to COM_6.122/frame-220.log)
+run_all_umbrellas.sh: line 115: COM_6.122/frame-220.log: Disk quota exceeded
+Execution of COM_6.122/frame-220_run-umbrella.sh failed. Check COM_6.122/frame-220.log for details.
+Running COM_6.234/frame-225_run-umbrella.sh... (Logging to COM_6.234/frame-225.log)
+run_all_umbrellas.sh: line 115: COM_6.234/frame-225.log: Disk quota exceeded
+Execution of COM_6.234/frame-225_run-umbrella.sh failed. Check COM_6.234/frame-225.log for details.
+Running COM_6.314/frame-230_run-umbrella.sh... (Logging to COM_6.314/frame-230.log)
+run_all_umbrellas.sh: line 115: COM_6.314/frame-230.log: Disk quota exceeded
+Execution of COM_6.314/frame-230_run-umbrella.sh failed. Check COM_6.314/frame-230.log for details.
+Running COM_6.398/frame-234_run-umbrella.sh... (Logging to COM_6.398/frame-234.log)
+run_all_umbrellas.sh: line 115: COM_6.398/frame-234.log: Disk quota exceeded
+Execution of COM_6.398/frame-234_run-umbrella.sh failed. Check COM_6.398/frame-234.log for details.
+Running COM_6.487/frame-237_run-umbrella.sh... (Logging to COM_6.487/frame-237.log)
+run_all_umbrellas.sh: line 115: COM_6.487/frame-237.log: Disk quota exceeded
+Execution of COM_6.487/frame-237_run-umbrella.sh failed. Check COM_6.487/frame-237.log for details.
+Running COM_6.585/frame-242_run-umbrella.sh... (Logging to COM_6.585/frame-242.log)
+run_all_umbrellas.sh: line 115: COM_6.585/frame-242.log: Disk quota exceeded
+Execution of COM_6.585/frame-242_run-umbrella.sh failed. Check COM_6.585/frame-242.log for details.
+Running COM_6.685/frame-246_run-umbrella.sh... (Logging to COM_6.685/frame-246.log)
+run_all_umbrellas.sh: line 115: COM_6.685/frame-246.log: Disk quota exceeded
+Execution of COM_6.685/frame-246_run-umbrella.sh failed. Check COM_6.685/frame-246.log for details.
+Running COM_6.786/frame-250_run-umbrella.sh... (Logging to COM_6.786/frame-250.log)
+run_all_umbrellas.sh: line 115: COM_6.786/frame-250.log: Disk quota exceeded
+Execution of COM_6.786/frame-250_run-umbrella.sh failed. Check COM_6.786/frame-250.log for details.
+All scripts executed.
+Starting execution in directory: /home/xze439/HW2/assignment2 kopie/part3
+Log file: umbrella_run.log
+The following shell scripts will be executed:
+ - COM_2.346/frame-0_run-umbrella.sh
+ - COM_2.446/frame-19_run-umbrella.sh
+ - COM_2.550/frame-40_run-umbrella.sh
+ - COM_2.654/frame-51_run-umbrella.sh
+ - COM_2.757/frame-62_run-umbrella.sh
+ - COM_2.855/frame-71_run-umbrella.sh
+ - COM_2.970/frame-79_run-umbrella.sh
+ - COM_3.085/frame-83_run-umbrella.sh
+ - COM_3.188/frame-88_run-umbrella.sh
+ - COM_3.288/frame-90_run-umbrella.sh
+ - COM_3.358/frame-93_run-umbrella.sh
+ - COM_3.469/frame-97_run-umbrella.sh
+ - COM_3.574/frame-102_run-umbrella.sh
+ - COM_3.687/frame-107_run-umbrella.sh
+ - COM_3.789/frame-110_run-umbrella.sh
+ - COM_3.901/frame-116_run-umbrella.sh
+ - COM_3.993/frame-120_run-umbrella.sh
+ - COM_4.095/frame-125_run-umbrella.sh
+ - COM_4.198/frame-129_run-umbrella.sh
+ - COM_4.291/frame-134_run-umbrella.sh
+ - COM_4.386/frame-137_run-umbrella.sh
+ - COM_4.492/frame-140_run-umbrella.sh
+ - COM_4.602/frame-145_run-umbrella.sh
+ - COM_4.698/frame-151_run-umbrella.sh
+ - COM_4.802/frame-157_run-umbrella.sh
+ - COM_4.902/frame-162_run-umbrella.sh
+ - COM_5.000/frame-166_run-umbrella.sh
+ - COM_5.094/frame-169_run-umbrella.sh
+ - COM_5.208/frame-173_run-umbrella.sh
+ - COM_5.309/frame-178_run-umbrella.sh
+ - COM_5.411/frame-183_run-umbrella.sh
+ - COM_5.527/frame-188_run-umbrella.sh
+ - COM_5.622/frame-195_run-umbrella.sh
+ - COM_5.720/frame-201_run-umbrella.sh
+ - COM_5.813/frame-206_run-umbrella.sh
+ - COM_5.913/frame-211_run-umbrella.sh
+ - COM_6.019/frame-217_run-umbrella.sh
+ - COM_6.122/frame-220_run-umbrella.sh
+ - COM_6.234/frame-225_run-umbrella.sh
+ - COM_6.314/frame-230_run-umbrella.sh
+ - COM_6.398/frame-234_run-umbrella.sh
+ - COM_6.487/frame-237_run-umbrella.sh
+ - COM_6.585/frame-242_run-umbrella.sh
+ - COM_6.685/frame-246_run-umbrella.sh
+ - COM_6.786/frame-250_run-umbrella.sh
+Do you want to execute all these scripts? (y/n): Running COM_2.346/frame-0_run-umbrella.sh... (Logging to COM_2.346/frame-0.log)
+Execution of COM_2.346/frame-0_run-umbrella.sh completed successfully.
+Running COM_2.446/frame-19_run-umbrella.sh... (Logging to COM_2.446/frame-19.log)
+Execution of COM_2.446/frame-19_run-umbrella.sh completed successfully.
+Running COM_2.550/frame-40_run-umbrella.sh... (Logging to COM_2.550/frame-40.log)
+Execution of COM_2.550/frame-40_run-umbrella.sh completed successfully.
+Running COM_2.654/frame-51_run-umbrella.sh... (Logging to COM_2.654/frame-51.log)
+Execution of COM_2.654/frame-51_run-umbrella.sh completed successfully.
+Running COM_2.757/frame-62_run-umbrella.sh... (Logging to COM_2.757/frame-62.log)
+Execution of COM_2.757/frame-62_run-umbrella.sh completed successfully.
+Running COM_2.855/frame-71_run-umbrella.sh... (Logging to COM_2.855/frame-71.log)
+Execution of COM_2.855/frame-71_run-umbrella.sh completed successfully.
+Running COM_2.970/frame-79_run-umbrella.sh... (Logging to COM_2.970/frame-79.log)
+Execution of COM_2.970/frame-79_run-umbrella.sh completed successfully.
+Running COM_3.085/frame-83_run-umbrella.sh... (Logging to COM_3.085/frame-83.log)
+Execution of COM_3.085/frame-83_run-umbrella.sh completed successfully.
+Running COM_3.188/frame-88_run-umbrella.sh... (Logging to COM_3.188/frame-88.log)
+Execution of COM_3.188/frame-88_run-umbrella.sh completed successfully.
+Running COM_3.288/frame-90_run-umbrella.sh... (Logging to COM_3.288/frame-90.log)
+Execution of COM_3.288/frame-90_run-umbrella.sh completed successfully.
+Running COM_3.358/frame-93_run-umbrella.sh... (Logging to COM_3.358/frame-93.log)
+Execution of COM_3.358/frame-93_run-umbrella.sh completed successfully.
+Running COM_3.469/frame-97_run-umbrella.sh... (Logging to COM_3.469/frame-97.log)
+Execution of COM_3.469/frame-97_run-umbrella.sh completed successfully.
+Running COM_3.574/frame-102_run-umbrella.sh... (Logging to COM_3.574/frame-102.log)
+Execution of COM_3.574/frame-102_run-umbrella.sh completed successfully.
+Running COM_3.687/frame-107_run-umbrella.sh... (Logging to COM_3.687/frame-107.log)
+Execution of COM_3.687/frame-107_run-umbrella.sh completed successfully.
+Running COM_3.789/frame-110_run-umbrella.sh... (Logging to COM_3.789/frame-110.log)
+Execution of COM_3.789/frame-110_run-umbrella.sh completed successfully.
+Running COM_3.901/frame-116_run-umbrella.sh... (Logging to COM_3.901/frame-116.log)
+Execution of COM_3.901/frame-116_run-umbrella.sh completed successfully.
+Running COM_3.993/frame-120_run-umbrella.sh... (Logging to COM_3.993/frame-120.log)
+Execution of COM_3.993/frame-120_run-umbrella.sh completed successfully.
+Running COM_4.095/frame-125_run-umbrella.sh... (Logging to COM_4.095/frame-125.log)
+Execution of COM_4.095/frame-125_run-umbrella.sh completed successfully.
+Running COM_4.198/frame-129_run-umbrella.sh... (Logging to COM_4.198/frame-129.log)
+Execution of COM_4.198/frame-129_run-umbrella.sh completed successfully.
+Running COM_4.291/frame-134_run-umbrella.sh... (Logging to COM_4.291/frame-134.log)
+Execution of COM_4.291/frame-134_run-umbrella.sh completed successfully.
+Running COM_4.386/frame-137_run-umbrella.sh... (Logging to COM_4.386/frame-137.log)
+Execution of COM_4.386/frame-137_run-umbrella.sh completed successfully.
+Running COM_4.492/frame-140_run-umbrella.sh... (Logging to COM_4.492/frame-140.log)
+Execution of COM_4.492/frame-140_run-umbrella.sh completed successfully.
+Running COM_4.602/frame-145_run-umbrella.sh... (Logging to COM_4.602/frame-145.log)
+Execution of COM_4.602/frame-145_run-umbrella.sh completed successfully.
+Running COM_4.698/frame-151_run-umbrella.sh... (Logging to COM_4.698/frame-151.log)
+Execution of COM_4.698/frame-151_run-umbrella.sh completed successfully.
+Running COM_4.802/frame-157_run-umbrella.sh... (Logging to COM_4.802/frame-157.log)
+Execution of COM_4.802/frame-157_run-umbrella.sh completed successfully.
+Running COM_4.902/frame-162_run-umbrella.sh... (Logging to COM_4.902/frame-162.log)
+Execution of COM_4.902/frame-162_run-umbrella.sh completed successfully.
+Running COM_5.000/frame-166_run-umbrella.sh... (Logging to COM_5.000/frame-166.log)
+Execution of COM_5.000/frame-166_run-umbrella.sh completed successfully.
+Running COM_5.094/frame-169_run-umbrella.sh... (Logging to COM_5.094/frame-169.log)
+Execution of COM_5.094/frame-169_run-umbrella.sh completed successfully.
+Running COM_5.208/frame-173_run-umbrella.sh... (Logging to COM_5.208/frame-173.log)
+Execution of COM_5.208/frame-173_run-umbrella.sh completed successfully.
+Running COM_5.309/frame-178_run-umbrella.sh... (Logging to COM_5.309/frame-178.log)
+Execution of COM_5.309/frame-178_run-umbrella.sh completed successfully.
+Running COM_5.411/frame-183_run-umbrella.sh... (Logging to COM_5.411/frame-183.log)
+Execution of COM_5.411/frame-183_run-umbrella.sh completed successfully.
+Running COM_5.527/frame-188_run-umbrella.sh... (Logging to COM_5.527/frame-188.log)
+Execution of COM_5.527/frame-188_run-umbrella.sh completed successfully.
+Running COM_5.622/frame-195_run-umbrella.sh... (Logging to COM_5.622/frame-195.log)
+Execution of COM_5.622/frame-195_run-umbrella.sh completed successfully.
+Running COM_5.720/frame-201_run-umbrella.sh... (Logging to COM_5.720/frame-201.log)
+Execution of COM_5.720/frame-201_run-umbrella.sh completed successfully.
+Running COM_5.813/frame-206_run-umbrella.sh... (Logging to COM_5.813/frame-206.log)
+Execution of COM_5.813/frame-206_run-umbrella.sh completed successfully.
+Running COM_5.913/frame-211_run-umbrella.sh... (Logging to COM_5.913/frame-211.log)
+Execution of COM_5.913/frame-211_run-umbrella.sh completed successfully.
+Running COM_6.019/frame-217_run-umbrella.sh... (Logging to COM_6.019/frame-217.log)
+Execution of COM_6.019/frame-217_run-umbrella.sh completed successfully.
+Running COM_6.122/frame-220_run-umbrella.sh... (Logging to COM_6.122/frame-220.log)
+Execution of COM_6.122/frame-220_run-umbrella.sh completed successfully.
+Running COM_6.234/frame-225_run-umbrella.sh... (Logging to COM_6.234/frame-225.log)
+Execution of COM_6.234/frame-225_run-umbrella.sh completed successfully.
+Running COM_6.314/frame-230_run-umbrella.sh... (Logging to COM_6.314/frame-230.log)
+Execution of COM_6.314/frame-230_run-umbrella.sh completed successfully.
+Running COM_6.398/frame-234_run-umbrella.sh... (Logging to COM_6.398/frame-234.log)
+Execution of COM_6.398/frame-234_run-umbrella.sh completed successfully.
+Running COM_6.487/frame-237_run-umbrella.sh... (Logging to COM_6.487/frame-237.log)
+Execution of COM_6.487/frame-237_run-umbrella.sh completed successfully.
+Running COM_6.585/frame-242_run-umbrella.sh... (Logging to COM_6.585/frame-242.log)
+Execution of COM_6.585/frame-242_run-umbrella.sh completed successfully.
+Running COM_6.685/frame-246_run-umbrella.sh... (Logging to COM_6.685/frame-246.log)
+Execution of COM_6.685/frame-246_run-umbrella.sh completed successfully.
+Running COM_6.786/frame-250_run-umbrella.sh... (Logging to COM_6.786/frame-250.log)
+Execution of COM_6.786/frame-250_run-umbrella.sh completed successfully.
+All scripts executed.

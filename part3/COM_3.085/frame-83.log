@@ -1,0 +1,244 @@
+                :-) GROMACS - gmx grompp, 2026.0-conda_forge (-:
+
+Executable:   /opt/conda/envs/bioinformatics/bin.AVX2_256/gmx
+Data prefix:  /opt/conda/envs/bioinformatics
+Working dir:  /home/xze439/HW2/assignment2 kopie/part3/COM_3.085
+Command line:
+  gmx grompp -f '/home/xze439/HW2/assignment2 kopie/part3/eq_umbrella.mdp' -c '/home/xze439/HW2/assignment2 kopie/part3/conf83.gro' -r '/home/xze439/HW2/assignment2 kopie/part3/conf83.gro' -p '/home/xze439/HW2/assignment2 kopie/part3/1vet.top' -n '/home/xze439/HW2/assignment2 kopie/part3/index.ndx' -o npt83.tpr -maxwarn 1
+
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+
+WARNING 1 [file /home/xze439/HW2/assignment2 kopie/part3/eq_umbrella.mdp]:
+  The Berendsen barostat does not generate any strictly correct ensemble,
+  and should not be used for new production simulations (in our opinion).
+  We recommend using the C-rescale barostat instead.
+
+Pull group 1 'Chain_A' has 279 atoms
+Pull group 2 'Chain_B' has 262 atoms
+Number of degrees of freedom in T-Coupling group System is 21705.00
+
+NOTE 1 [file /home/xze439/HW2/assignment2 kopie/part3/eq_umbrella.mdp]:
+  Removing center of mass motion in the presence of position restraints
+  might cause artifacts. When you are using position restraints to
+  equilibrate a macro-molecule, the artifacts are usually negligible.
+
+Pull group  natoms  pbc atom  distance at start  reference at t=0
+       1       279       209
+       2       262       476       2.955 nm          2.955 nm
+
+There was 1 NOTE
+
+There was 1 WARNING
+
+Back Off! I just backed up npt83.tpr to ./#npt83.tpr.1#
+
+GROMACS reminds you: "Our two greatest problems are gravity and paper work. We can lick gravity, but sometimes the paperwork is overwhelming." (Wernher von Braun)
+
+Setting the LD random seed to -1073810001
+
+Generated 844 of the 356590 non-bonded parameter combinations
+
+Excluding 1 bonded neighbours molecule type 'molecule_0'
+
+Excluding 1 bonded neighbours molecule type 'molecule_1'
+
+Excluding 1 bonded neighbours molecule type 'W'
+
+Excluding 1 bonded neighbours molecule type 'NA'
+
+Velocities were taken from a Maxwell distribution at 300 K
+
+Cleaning up constraints and constant bonded interactions with virtual sites
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+
+Calculated rlist for 1x1 atom pair-list as 1.343 nm, buffer size 0.243 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.275 nm, buffer size 0.175 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+  rest:       	 4.051  3.878  3.538
+  rest:       	 4.051  3.878  3.538
+
+This run will generate roughly 2 Mb of data
+                :-) GROMACS - gmx mdrun, 2026.0-conda_forge (-:
+
+Executable:   /opt/conda/envs/bioinformatics/bin.AVX2_256/gmx
+Data prefix:  /opt/conda/envs/bioinformatics
+Working dir:  /home/xze439/HW2/assignment2 kopie/part3/COM_3.085
+Command line:
+  gmx mdrun -deffnm npt83 -nt 1 -v
+
+
+Back Off! I just backed up npt83.log to ./#npt83.log.1#
+Compiled SIMD is AVX2_256, but AVX_512 might be faster (see log).
+The current CPU can measure timings more accurately than the code in
+gmx mdrun was configured to use. This might affect your simulation
+speed as accurate timings are needed for load-balancing.
+Please consider rebuilding gmx mdrun with the GMX_USE_RDTSCP=ON CMake option.
+Reading file npt83.tpr, VERSION 2026.0-conda_forge (single precision)
+Changing nstlist from 20 to 25, rlist from 1.271 to 1.362
+
+
+Update groups can not be used for this system because atoms that are (in)directly constrained together are interdispersed with other atoms
+
+Using 1 MPI thread
+Using 1 OpenMP thread 
+
+
+NOTE: Thread affinity was not set.
+
+Back Off! I just backed up npt83_pullx.xvg to ./#npt83_pullx.xvg.1#
+
+Back Off! I just backed up npt83_pullf.xvg to ./#npt83_pullf.xvg.1#
+
+Back Off! I just backed up npt83.xtc to ./#npt83.xtc.1#
+
+Back Off! I just backed up npt83.edr to ./#npt83.edr.1#
+starting mdrun 'Title of the system in water'
+5000 steps,    100.0 ps.
+step 0step 100, remaining wall clock time:     2 s          step 200, remaining wall clock time:     2 s          step 300, remaining wall clock time:     2 s          step 400, remaining wall clock time:     2 s          step 500, remaining wall clock time:     2 s          step 600, remaining wall clock time:     2 s          step 700, remaining wall clock time:     2 s          step 800, remaining wall clock time:     2 s          step 900, remaining wall clock time:     2 s          step 1000, remaining wall clock time:     2 s          step 1100, remaining wall clock time:     2 s          step 1200, remaining wall clock time:     2 s          step 1300, remaining wall clock time:     2 s          step 1400, remaining wall clock time:     2 s          step 1500, remaining wall clock time:     1 s          step 1600, remaining wall clock time:     1 s          step 1700, remaining wall clock time:     1 s          step 1800, remaining wall clock time:     1 s          step 1900, remaining wall clock time:     1 s          step 2000, remaining wall clock time:     1 s          step 2100, remaining wall clock time:     1 s          step 2200, remaining wall clock time:     1 s          step 2300, remaining wall clock time:     1 s          step 2400, remaining wall clock time:     1 s          step 2500, remaining wall clock time:     1 s          step 2600, remaining wall clock time:     1 s          step 2700, remaining wall clock time:     1 s          step 2800, remaining wall clock time:     1 s          step 2900, remaining wall clock time:     1 s          step 3000, remaining wall clock time:     1 s          step 3100, remaining wall clock time:     1 s          step 3200, remaining wall clock time:     1 s          step 3300, remaining wall clock time:     0 s          step 3400, remaining wall clock time:     0 s          step 3500, remaining wall clock time:     0 s          step 3600, remaining wall clock time:     0 s          step 3700, remaining wall clock time:     0 s          step 3800, remaining wall clock time:     0 s          step 3900, remaining wall clock time:     0 s          step 4000, remaining wall clock time:     0 s          step 4100, remaining wall clock time:     0 s          step 4200, remaining wall clock time:     0 s          step 4300, remaining wall clock time:     0 s          step 4400, remaining wall clock time:     0 s          step 4500, remaining wall clock time:     0 s          step 4600, remaining wall clock time:     0 s          step 4700, remaining wall clock time:     0 s          step 4800, remaining wall clock time:     0 s          step 4900, remaining wall clock time:     0 s          
+Writing final coordinates.
+
+Back Off! I just backed up npt83.gro to ./#npt83.gro.1#
+step 5000, remaining wall clock time:     0 s          
+NOTE: 16 % of the run time was spent in pair search,
+      you might want to increase nstlist (this has no effect on accuracy)
+
+               Core t (s)   Wall t (s)        (%)
+       Time:        2.858        2.861       99.9
+                 (ns/day)    (hour/ns)    (ms/step)  (Matom*steps/s) 
+Performance:     3020.669        0.008        0.572           12.798 
+
+GROMACS reminds you: "If it's a good idea, go ahead and do it. It's much easier to apologize than it is to get permission." (Grace Hopper, developer of COBOL)
+
+                :-) GROMACS - gmx grompp, 2026.0-conda_forge (-:
+
+Executable:   /opt/conda/envs/bioinformatics/bin.AVX2_256/gmx
+Data prefix:  /opt/conda/envs/bioinformatics
+Working dir:  /home/xze439/HW2/assignment2 kopie/part3/COM_3.085
+Command line:
+  gmx grompp -f '/home/xze439/HW2/assignment2 kopie/part3/md_umbrella.mdp' -c npt83.gro -r npt83.gro -t npt83.cpt -p '/home/xze439/HW2/assignment2 kopie/part3/1vet.top' -n '/home/xze439/HW2/assignment2 kopie/part3/index.ndx' -o umbrella83.tpr -maxwarn 1
+
+Ignoring obsolete mdp entry 'title'
+Ignoring obsolete mdp entry 'ns_type'
+
+NOTE 1 [file /home/xze439/HW2/assignment2 kopie/part3/md_umbrella.mdp]:
+  Setting nstcalcenergy (100) equal to nstenergy (50)
+
+
+NOTE 2 [file 1vet.top, line 15]:
+  You are combining position restraints with Parrinello-Rahman pressure
+  coupling, which can lead to instabilities. If you really want to combine
+  position restraints with pressure coupling, we suggest to use C-rescale
+  pressure coupling instead.
+
+Pull group 1 'Chain_A' has 279 atoms
+Pull group 2 'Chain_B' has 262 atoms
+Number of degrees of freedom in T-Coupling group System is 21705.00
+
+NOTE 3 [file /home/xze439/HW2/assignment2 kopie/part3/md_umbrella.mdp]:
+  Removing center of mass motion in the presence of position restraints
+  might cause artifacts. When you are using position restraints to
+  equilibrate a macro-molecule, the artifacts are usually negligible.
+
+Last frame         -1 time  100.000   
+Pull group  natoms  pbc atom  distance at start  reference at t=0
+       1       279       209
+       2       262       476       2.923 nm          2.923 nm
+
+There were 3 NOTEs
+
+Back Off! I just backed up umbrella83.tpr to ./#umbrella83.tpr.1#
+
+GROMACS reminds you: "If it's a good idea, go ahead and do it. It's much easier to apologize than it is to get permission." (Grace Hopper, developer of COBOL)
+
+Setting the LD random seed to -1094722721
+
+Generated 844 of the 356590 non-bonded parameter combinations
+
+Excluding 1 bonded neighbours molecule type 'molecule_0'
+
+Excluding 1 bonded neighbours molecule type 'molecule_1'
+
+Excluding 1 bonded neighbours molecule type 'W'
+
+Excluding 1 bonded neighbours molecule type 'NA'
+
+Taking velocities from 'npt83.gro'
+
+Cleaning up constraints and constant bonded interactions with virtual sites
+
+Determining Verlet buffer for a tolerance of 0.005 kJ/mol/ps at 300 K
+
+Calculated rlist for 1x1 atom pair-list as 1.343 nm, buffer size 0.243 nm
+
+Set rlist, assuming 4x4 atom pair-list, to 1.275 nm, buffer size 0.175 nm
+
+Note that mdrun will redetermine rlist based on the actual pair-list setup
+
+  rest:       	 4.043  3.879  3.534
+  rest:       	 4.043  3.879  3.534
+
+Reading Coordinates, Velocities and Box size from old trajectory
+
+Will read whole trajectory
+
+Using frame at t = 100 ps
+
+Starting time for run is 0 ps
+
+This run will generate roughly 2 Mb of data
+                :-) GROMACS - gmx mdrun, 2026.0-conda_forge (-:
+
+Executable:   /opt/conda/envs/bioinformatics/bin.AVX2_256/gmx
+Data prefix:  /opt/conda/envs/bioinformatics
+Working dir:  /home/xze439/HW2/assignment2 kopie/part3/COM_3.085
+Command line:
+  gmx mdrun -deffnm umbrella83 -nt 1 -v
+
+
+Back Off! I just backed up umbrella83.log to ./#umbrella83.log.1#
+Compiled SIMD is AVX2_256, but AVX_512 might be faster (see log).
+The current CPU can measure timings more accurately than the code in
+gmx mdrun was configured to use. This might affect your simulation
+speed as accurate timings are needed for load-balancing.
+Please consider rebuilding gmx mdrun with the GMX_USE_RDTSCP=ON CMake option.
+Reading file umbrella83.tpr, VERSION 2026.0-conda_forge (single precision)
+Changing nstlist from 20 to 25, rlist from 1.272 to 1.362
+
+
+Update groups can not be used for this system because atoms that are (in)directly constrained together are interdispersed with other atoms
+
+Using 1 MPI thread
+Using 1 OpenMP thread 
+
+
+NOTE: Thread affinity was not set.
+
+Back Off! I just backed up umbrella83_pullx.xvg to ./#umbrella83_pullx.xvg.1#
+
+Back Off! I just backed up umbrella83_pullf.xvg to ./#umbrella83_pullf.xvg.1#
+
+Back Off! I just backed up umbrella83.xtc to ./#umbrella83.xtc.1#
+
+Back Off! I just backed up umbrella83.edr to ./#umbrella83.edr.1#
+starting mdrun 'Title of the system in water'
+25000 steps,    500.0 ps.
+step 0step 100, remaining wall clock time:    15 s          step 200, remaining wall clock time:    15 s          step 300, remaining wall clock time:    15 s          step 400, remaining wall clock time:    15 s          step 500, remaining wall clock time:    14 s          step 600, remaining wall clock time:    14 s          step 700, remaining wall clock time:    14 s          step 800, remaining wall clock time:    14 s          step 900, remaining wall clock time:    14 s          step 1000, remaining wall clock time:    14 s          step 1100, remaining wall clock time:    14 s          step 1200, remaining wall clock time:    14 s          step 1300, remaining wall clock time:    14 s          step 1400, remaining wall clock time:    14 s          step 1500, remaining wall clock time:    14 s          step 1600, remaining wall clock time:    14 s          step 1700, remaining wall clock time:    14 s          step 1800, remaining wall clock time:    14 s          step 1900, remaining wall clock time:    14 s          step 2000, remaining wall clock time:    14 s          step 2100, remaining wall clock time:    13 s          step 2200, remaining wall clock time:    13 s          step 2300, remaining wall clock time:    13 s          step 2400, remaining wall clock time:    13 s          step 2500, remaining wall clock time:    13 s          step 2600, remaining wall clock time:    13 s          step 2700, remaining wall clock time:    13 s          step 2800, remaining wall clock time:    13 s          step 2900, remaining wall clock time:    13 s          step 3000, remaining wall clock time:    13 s          step 3100, remaining wall clock time:    13 s          step 3200, remaining wall clock time:    13 s          step 3300, remaining wall clock time:    13 s          step 3400, remaining wall clock time:    13 s          step 3500, remaining wall clock time:    13 s          step 3600, remaining wall clock time:    13 s          step 3700, remaining wall clock time:    12 s          step 3800, remaining wall clock time:    12 s          step 3900, remaining wall clock time:    12 s          step 4000, remaining wall clock time:    12 s          step 4100, remaining wall clock time:    12 s          step 4200, remaining wall clock time:    12 s          step 4300, remaining wall clock time:    12 s          step 4400, remaining wall clock time:    12 s          step 4500, remaining wall clock time:    12 s          step 4600, remaining wall clock time:    12 s          step 4700, remaining wall clock time:    12 s          step 4800, remaining wall clock time:    12 s          step 4900, remaining wall clock time:    12 s          step 5000, remaining wall clock time:    12 s          step 5100, remaining wall clock time:    12 s          step 5200, remaining wall clock time:    12 s          step 5300, remaining wall clock time:    11 s          step 5400, remaining wall clock time:    11 s          step 5500, remaining wall clock time:    11 s          step 5600, remaining wall clock time:    11 s          step 5700, remaining wall clock time:    11 s          step 5800, remaining wall clock time:    11 s          step 5900, remaining wall clock time:    11 s          step 6000, remaining wall clock time:    11 s          step 6100, remaining wall clock time:    11 s          step 6200, remaining wall clock time:    11 s          step 6300, remaining wall clock time:    11 s          step 6400, remaining wall clock time:    11 s          step 6500, remaining wall clock time:    11 s          step 6600, remaining wall clock time:    11 s          step 6700, remaining wall clock time:    11 s          step 6800, remaining wall clock time:    11 s          step 6900, remaining wall clock time:    11 s          step 7000, remaining wall clock time:    10 s          step 7100, remaining wall clock time:    10 s          step 7200, remaining wall clock time:    10 s          step 7300, remaining wall clock time:    10 s          step 7400, remaining wall clock time:    10 s          step 7500, remaining wall clock time:    10 s          step 7600, remaining wall clock time:    10 s          step 7700, remaining wall clock time:    10 s          step 7800, remaining wall clock time:    10 s          step 7900, remaining wall clock time:    10 s          step 8000, remaining wall clock time:    10 s          step 8100, remaining wall clock time:    10 s          step 8200, remaining wall clock time:    10 s          step 8300, remaining wall clock time:    10 s          step 8400, remaining wall clock time:    10 s          step 8500, remaining wall clock time:    10 s          step 8600, remaining wall clock time:     9 s          step 8700, remaining wall clock time:     9 s          step 8800, remaining wall clock time:     9 s          step 8900, remaining wall clock time:     9 s          step 9000, remaining wall clock time:     9 s          step 9100, remaining wall clock time:     9 s          step 9200, remaining wall clock time:     9 s          step 9300, remaining wall clock time:     9 s          step 9400, remaining wall clock time:     9 s          step 9500, remaining wall clock time:     9 s          step 9600, remaining wall clock time:     9 s          step 9700, remaining wall clock time:     9 s          step 9800, remaining wall clock time:     9 s          step 9900, remaining wall clock time:     9 s          step 10000, remaining wall clock time:     9 s          step 10100, remaining wall clock time:     9 s          step 10200, remaining wall clock time:     9 s          step 10300, remaining wall clock time:     8 s          step 10400, remaining wall clock time:     8 s          step 10500, remaining wall clock time:     8 s          step 10600, remaining wall clock time:     8 s          step 10700, remaining wall clock time:     8 s          step 10800, remaining wall clock time:     8 s          step 10900, remaining wall clock time:     8 s          step 11000, remaining wall clock time:     8 s          step 11100, remaining wall clock time:     8 s          step 11200, remaining wall clock time:     8 s          step 11300, remaining wall clock time:     8 s          step 11400, remaining wall clock time:     8 s          step 11500, remaining wall clock time:     8 s          step 11600, remaining wall clock time:     8 s          step 11700, remaining wall clock time:     8 s          step 11800, remaining wall clock time:     8 s          step 11900, remaining wall clock time:     7 s          step 12000, remaining wall clock time:     7 s          step 12100, remaining wall clock time:     7 s          step 12200, remaining wall clock time:     7 s          step 12300, remaining wall clock time:     7 s          step 12400, remaining wall clock time:     7 s          step 12500, remaining wall clock time:     7 s          step 12600, remaining wall clock time:     7 s          step 12700, remaining wall clock time:     7 s          step 12800, remaining wall clock time:     7 s          step 12900, remaining wall clock time:     7 s          step 13000, remaining wall clock time:     7 s          step 13100, remaining wall clock time:     7 s          step 13200, remaining wall clock time:     7 s          step 13300, remaining wall clock time:     7 s          step 13400, remaining wall clock time:     7 s          step 13500, remaining wall clock time:     7 s          step 13600, remaining wall clock time:     6 s          step 13700, remaining wall clock time:     6 s          step 13800, remaining wall clock time:     6 s          step 13900, remaining wall clock time:     6 s          step 14000, remaining wall clock time:     6 s          step 14100, remaining wall clock time:     6 s          step 14200, remaining wall clock time:     6 s          step 14300, remaining wall clock time:     6 s          step 14400, remaining wall clock time:     6 s          step 14500, remaining wall clock time:     6 s          step 14600, remaining wall clock time:     6 s          step 14700, remaining wall clock time:     6 s          step 14800, remaining wall clock time:     6 s          step 14900, remaining wall clock time:     6 s          step 15000, remaining wall clock time:     6 s          step 15100, remaining wall clock time:     6 s          step 15200, remaining wall clock time:     5 s          step 15300, remaining wall clock time:     5 s          step 15400, remaining wall clock time:     5 s          step 15500, remaining wall clock time:     5 s          step 15600, remaining wall clock time:     5 s          step 15700, remaining wall clock time:     5 s          step 15800, remaining wall clock time:     5 s          step 15900, remaining wall clock time:     5 s          step 16000, remaining wall clock time:     5 s          step 16100, remaining wall clock time:     5 s          step 16200, remaining wall clock time:     5 s          step 16300, remaining wall clock time:     5 s          step 16400, remaining wall clock time:     5 s          step 16500, remaining wall clock time:     5 s          step 16600, remaining wall clock time:     5 s          step 16700, remaining wall clock time:     5 s          step 16800, remaining wall clock time:     4 s          step 16900, remaining wall clock time:     4 s          step 17000, remaining wall clock time:     4 s          step 17100, remaining wall clock time:     4 s          step 17200, remaining wall clock time:     4 s          step 17300, remaining wall clock time:     4 s          step 17400, remaining wall clock time:     4 s          step 17500, remaining wall clock time:     4 s          step 17600, remaining wall clock time:     4 s          step 17700, remaining wall clock time:     4 s          step 17800, remaining wall clock time:     4 s          step 17900, remaining wall clock time:     4 s          step 18000, remaining wall clock time:     4 s          step 18100, remaining wall clock time:     4 s          step 18200, remaining wall clock time:     4 s          step 18300, remaining wall clock time:     4 s          step 18400, remaining wall clock time:     4 s          step 18500, remaining wall clock time:     3 s          step 18600, remaining wall clock time:     3 s          step 18700, remaining wall clock time:     3 s          step 18800, remaining wall clock time:     3 s          step 18900, remaining wall clock time:     3 s          step 19000, remaining wall clock time:     3 s          step 19100, remaining wall clock time:     3 s          step 19200, remaining wall clock time:     3 s          step 19300, remaining wall clock time:     3 s          step 19400, remaining wall clock time:     3 s          step 19500, remaining wall clock time:     3 s          step 19600, remaining wall clock time:     3 s          step 19700, remaining wall clock time:     3 s          step 19800, remaining wall clock time:     3 s          step 19900, remaining wall clock time:     3 s          step 20000, remaining wall clock time:     3 s          step 20100, remaining wall clock time:     2 s          step 20200, remaining wall clock time:     2 s          step 20300, remaining wall clock time:     2 s          step 20400, remaining wall clock time:     2 s          step 20500, remaining wall clock time:     2 s          step 20600, remaining wall clock time:     2 s          step 20700, remaining wall clock time:     2 s          step 20800, remaining wall clock time:     2 s          step 20900, remaining wall clock time:     2 s          step 21000, remaining wall clock time:     2 s          step 21100, remaining wall clock time:     2 s          step 21200, remaining wall clock time:     2 s          step 21300, remaining wall clock time:     2 s          step 21400, remaining wall clock time:     2 s          step 21500, remaining wall clock time:     2 s          step 21600, remaining wall clock time:     2 s          step 21700, remaining wall clock time:     2 s          step 21800, remaining wall clock time:     1 s          step 21900, remaining wall clock time:     1 s          step 22000, remaining wall clock time:     1 s          step 22100, remaining wall clock time:     1 s          step 22200, remaining wall clock time:     1 s          step 22300, remaining wall clock time:     1 s          step 22400, remaining wall clock time:     1 s          step 22500, remaining wall clock time:     1 s          step 22600, remaining wall clock time:     1 s          step 22700, remaining wall clock time:     1 s          step 22800, remaining wall clock time:     1 s          step 22900, remaining wall clock time:     1 s          step 23000, remaining wall clock time:     1 s          step 23100, remaining wall clock time:     1 s          step 23200, remaining wall clock time:     1 s          step 23300, remaining wall clock time:     1 s          step 23400, remaining wall clock time:     0 s          step 23500, remaining wall clock time:     0 s          step 23600, remaining wall clock time:     0 s          step 23700, remaining wall clock time:     0 s          step 23800, remaining wall clock time:     0 s          step 23900, remaining wall clock time:     0 s          step 24000, remaining wall clock time:     0 s          step 24100, remaining wall clock time:     0 s          step 24200, remaining wall clock time:     0 s          step 24300, remaining wall clock time:     0 s          step 24400, remaining wall clock time:     0 s          step 24500, remaining wall clock time:     0 s          step 24600, remaining wall clock time:     0 s          step 24700, remaining wall clock time:     0 s          step 24800, remaining wall clock time:     0 s          step 24900, remaining wall clock time:     0 s          
+Writing final coordinates.
+
+Back Off! I just backed up umbrella83.gro to ./#umbrella83.gro.1#
+step 25000, remaining wall clock time:     0 s          
+NOTE: 15 % of the run time was spent in pair search,
+      you might want to increase nstlist (this has no effect on accuracy)
+
+               Core t (s)   Wall t (s)        (%)
+       Time:       15.265       15.268      100.0
+                 (ns/day)    (hour/ns)    (ms/step)  (Matom*steps/s) 
+Performance:     2829.545        0.008        0.611           11.988 
+
+GROMACS reminds you: "With a Little Penknife" (Nick Cave)
+
